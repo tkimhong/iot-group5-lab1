@@ -1,7 +1,5 @@
 # IoT (001) Lab 1 (Group 5): ESP32 Temperature Monitor with Telegram Bot Control
 
----
-
 This IoT project monitors temperature using an ESP32, DHT22 sensor, and a relay module. It sends Telegram alerts via a bot when temperature exceeds 30ºC and provides relay control via commands. The bot supports both private chats and group chats.
 
 ---
