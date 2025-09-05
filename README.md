@@ -17,6 +17,8 @@ This IoT project monitors temperature using an ESP32, DHT22 sensor, and a relay 
 
 ![Physical wiring](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Lab1PhysicalWiringParts.jpg?raw=true)
 
+---
+
 # Software Configuration
 
 ### Prerequisites
@@ -47,6 +49,8 @@ BOT_TOKEN = "YOUR-BOT-TOKEN-HERE"
 - Run the code
 - Chat to the bot or add bot to group and chat from there
 - Send `/start` to authorize the chat(s)
+
+---
 
 # Features
 
