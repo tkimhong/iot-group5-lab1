@@ -1,4 +1,4 @@
-# IoT Lab 1 (Group 5): ESP32 Temperature Monitor with Telegram Bot Control
+# IoT (001) Lab 1 (Group 5): ESP32 Temperature Monitor with Telegram Bot Control
 
 ---
 
@@ -38,7 +38,7 @@ This IoT project monitors temperature using an ESP32, DHT22 sensor, and a relay 
 ```py
 WIFI_SSID = "YOUR-WIFI"
 WIFI_PASSWORD = "YOUR-WIFI-PASSWORD"
-BOT_TOKEN = "YOUR-BOT-TOKEN-FROM-ABOVE"
+BOT_TOKEN = "YOUR-BOT-TOKEN-HERE"
 ```
 
 3. **Upload to ESP32**
@@ -73,7 +73,7 @@ BOT_TOKEN = "YOUR-BOT-TOKEN-FROM-ABOVE"
 
 ## Flowchart
 
-![assets/Flowchart.jpg]
+![Flowchart](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Flowchart.jpg?raw=true)
 
 ---
 
@@ -81,21 +81,25 @@ BOT_TOKEN = "YOUR-BOT-TOKEN-FROM-ABOVE"
 
 ## Task 1: Sensor Reading
 
-![mrlapara.jpeg]
+![Printing temp and humidity readings every 5 seconds in Thonny](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Task1SerialOutput.png?raw=true)
 _DHT22 readings printed every 5 seconds with 2 decimal places_
 
 ## Task 2: Telegram Send
 
-![mrlapara.jpeg]
-_Successful bot authorization and test message_
+![Telegram bot PM authorization](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Task2BotAuthA.png?raw=true)
+![Telegram bot group authorization](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Task2BotAuthB.png?raw=true)
+_Successful bot authorization and confirmation message_
 
 ## Task 3: Bot Commands
 
+![Status Telegram bot command](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Task3BotCommandsA.png?raw=true)
+![Turn relay ON bot command](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Task3BotCommandsB.png?raw=true)
+![Turn relay OFF bot command](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Task3BotCommandsC.png?raw=true)
 _All three commands working: `/status`, `/on`, `/off`_
 
 ## Task 4: Temperature Logic
 
-**Demo Video:** https://www.youtube.com/watch?v=TebkVUqlEKY
+**Demo Video:** https://youtu.be/PDgJL9Lm_MY
 
 _The video shows_
 
@@ -106,14 +110,11 @@ _The video shows_
 
 ### Additional Screenshots
 
-![mrlapara.jpeg]
+![Telegram temperature alerts](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Additional1.png?raw=true)
 _Temperature alerts_
 
-![mrlapara.jpeg]
+![Telegram auto-OFF notification & /status](https://github.com/tkimhong/iot-group5-lab1/blob/main/assets/Additional2.png?raw=true)
 _Auto-OFF notification (temperature < 30ºC)_
-
-![mrlapara.jpeg]
-_Private chat functionality_
 
 ---
 
