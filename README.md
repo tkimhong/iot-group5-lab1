@@ -103,7 +103,8 @@ _All three commands working: `/status`, `/on`, `/off`_
 
 ## Task 4: Temperature Logic
 
-**Demo Video:** https://youtu.be/PDgJL9Lm_MY
+**Demo Video:**
+[![Demo video](https://img.youtube.com/vi/PDgJL9Lm_MY/0.jpg)](https://www.youtube.com/watch?v=PDgJL9Lm_MY)
 
 _The video shows_
 
